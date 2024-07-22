@@ -37,11 +37,11 @@ for row in table_rows:
         'mark': columns[1].strip(),
         'wind': columns[2].strip(),
         'competitor': row.xpath(".//td[4]/a/text()")[0].strip(),
-        'nat': columns[6].strip(),
-        'pos': columns[7].strip(),
-        'venue': columns[8].strip(),
-        'date': columns[9].strip(),
-        'resultscore': columns[10].strip()
+        'nat': columns[7].strip(),
+        'pos': columns[8].strip(),
+        'venue': columns[9].strip(),
+        'date': columns[10].strip(),
+        'resultscore': columns[11].strip()
     })
 print(data)
 
